@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
 
-  Notification.requestPermission().then()
+  useEffect(() => {
+    console.log(Notification.permission)
+    Notification.requestPermission().then()
+  }, []) 
 
 
   function msg() {
@@ -21,7 +24,7 @@ function App() {
         <button onClick={msg}>알림메세지</button>
 
 
-        
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
