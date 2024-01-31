@@ -17,18 +17,6 @@
   ],
   "icons": [
     {
-      "src": "/icon/pwa-1920x1080.png",
-      "sizes": "1920x1080",
-      "type": "image/png",
-      "form_factor":"wide"
-    },
-    {
-      "src": "/icon/apple-touch-icon-152x152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "form_factor":"wide"
-    },
-    {
       "src": "/icon/favicon-16x16.png",
       "sizes": "16x16",
       "type": "image/png"
